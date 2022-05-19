@@ -8,7 +8,9 @@
 }
 
 .title {
-  font-size: 35px;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 5px greenyellow, 0 0 15px greenyellow, 0 0 30px greenyellow, 0 0 greenyellow;
 }
 body {
   display: flex;
@@ -16,42 +18,59 @@ body {
   align-items: center;
   height: 100vh;
   font-family: macondo, sans-serif;
+  background-image: url("/img2.jpg");
+  background-size: cover;
 }
 .container {
+  box-shadow: 0 0 1rem #003;
   display: flex;
   width: 300px;
-  height: 320px;
+  height: 520px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 20px;
+  background-color: rgba(255,255,255, 0.40) ;
+  
 }
+  
+
 
 .counter {
   font-size: 5rem;
   margin-top: 20px;
+  text-shadow: 0 0 5px greenyellow, 0 0 15px greenyellow, 0 0 30px greenyellow
 }
 
 .buttons {
   margin-top: 20px;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+button:hover{
+  /* color: white; */
+  background-color: #e8e8eb;
+}
 
 button {
-  margin: 5px;
-  width: 70px;
-  height: 25px;
+  margin: 10px;
+  width: 100px;
+  height: 35px;
   cursor: pointer;
-
+  font-size: 25px; 
   background: white;
-
-  border-radius: 5px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 1rem #003;
+  
 }
 
 span {
   font-size: 15px;
-
-  box-sizing: border-box;
+  text-shadow: 0 0 5px greenyellow, 0 0 15px greenyellow, 0 0 30px greenyellow, 0 0 greenyellow;
+}
+.reset{
+  width: 75px;
 }
