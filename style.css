@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 35px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: macondo, sans-serif;
+}
+.container {
+  display: flex;
+  width: 300px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter {
+  font-size: 5rem;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 5px;
+  width: 70px;
+  height: 25px;
+  cursor: pointer;
+
+  background: white;
+
+  border-radius: 5px;
+}
+
+span {
+  font-size: 15px;
+
+  box-sizing: border-box;
+}
